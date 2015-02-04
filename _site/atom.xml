@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Python Study Groups</title>
+ <link href="http://pythonstudygroup.github.io/atom.xml" rel="self"/>
+ <link href="http://pythonstudygroup.github.io/"/>
+ <updated>2015-02-03T16:23:06-08:00</updated>
+ <id>http://pythonstudygroup.github.io</id>
+ <author>
+   <name>Jennie Lees</name>
+   <email>jennielees@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Exercise - Dictionary Keys</title>
+   <link href="http://pythonstudygroup.github.io/exercise-1"/>
+   <updated>2015-01-03T00:00:00-08:00</updated>
+   <id>http://pythonstudygroup.github.io/exercise-1</id>
+   <content type="html">&lt;p&gt;Given a pretty standard dictionary:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;d = {
+  &amp;#39;Jane&amp;#39;: 33,
+  &amp;#39;Elena&amp;#39;: 17,
+  &amp;#39;Margery&amp;#39;: 28,
+  &amp;#39;Savannah&amp;#39;: 21
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And a list of desired keys:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;keys = [&amp;#39;Elena&amp;#39;, &amp;#39;Savannah&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;How can you return a &lt;em&gt;filtered&lt;/em&gt; version of &lt;code&gt;d&lt;/code&gt;, without affecting what&amp;#39;s stored in the original &lt;code&gt;d&lt;/code&gt;?&lt;/p&gt;
+
+&lt;p&gt;What if the dictionary is more complex?&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;d = {
+  &amp;#39;Jane&amp;#39;: {
+    &amp;#39;age&amp;#39;: 33,
+    &amp;#39;location&amp;#39;: &amp;#39;San Francisco&amp;#39;
+  },
+  &amp;#39;Elena&amp;#39;: {
+    &amp;#39;age&amp;#39;: 17,
+    &amp;#39;location&amp;#39;: &amp;#39;Petaluma&amp;#39;
+  }
+}
+
+keys = [&amp;#39;age&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Try writing tests before working on the filter code itself. The specification of &lt;code&gt;keys&lt;/code&gt; is up to you - can you think of edge cases where the format above is going to fail?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Coursera</title>
+   <link href="http://pythonstudygroup.github.io/coursera"/>
+   <updated>2015-01-02T00:00:00-08:00</updated>
+   <id>http://pythonstudygroup.github.io/coursera</id>
+   <content type="html">&lt;p&gt;Coursera has several Python-focused classes which we&amp;#39;ve heard good things about.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/course/interactivepython1&quot;&gt;An Introduction to Interactive Programming in Python (Part 1)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/course/programming1&quot;&gt;Learn to Program: The Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/course/pythonlearn&quot;&gt;Programming for Everybody&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For those who aren&amp;#39;t complete beginners:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/course/programming2&quot;&gt;Crafting Quality Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/course/ml&quot;&gt;Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Coursera classes work well with study groups since the regular schedule helps keep you on track (and self-accountable!), plus you can meet others taking the same class. It&amp;#39;s sometimes good to hear that you weren&amp;#39;t the only one bashing your head against a particular assignment!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Getting Started</title>
+   <link href="http://pythonstudygroup.github.io/getting-started"/>
+   <updated>2015-01-01T00:00:00-08:00</updated>
+   <id>http://pythonstudygroup.github.io/getting-started</id>
+   <content type="html">&lt;p&gt;If you&amp;#39;re brand new to Python, try one of these:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.codecademy.com/&quot;&gt;Codecademy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.thinkful.com/learn/python-programming-fundamentals/#Setup&quot;&gt;Thinkful: Programming Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.learnpython.org/&quot;&gt;LearnPython.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://learnpythonthehardway.org/book/&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/edu/python/&quot;&gt;Google&amp;#39;s Python Class&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It&amp;#39;s worth discussing with people around you what your goals are. Is there something specific you want to build? Are you hoping to focus on data science, web apps, games, or something else?&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
